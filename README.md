@@ -1,8 +1,8 @@
-<img alt="React Native Redux Boilerplate" src="https://github.com/WrathChaos/react-native-redux-boilerplate/blob/master/assets/logo.png" width="1050"/>
+<img alt="React Native Redux Boilerplate" src="https://github.com/combenu/react-native-redux-boilerplate/blob/master/assets/logo.png" width="1050"/>
 
-[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-redux-boilerplate)
+[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/combenu/react-native-redux-boilerplate)
 
-[![React Native redux Boiler Plate](https://img.shields.io/badge/-React%20Native%20redux%20Boilerplate-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-redux-boilerplate)
+[![React Native redux Boiler Plate](https://img.shields.io/badge/-React%20Native%20redux%20Boilerplate-lightgrey?style=for-the-badge)](https://github.com/combenu/react-native-redux-boilerplate)
 
 [![npm version](https://img.shields.io/npm/v/react-native-redux-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-redux-boilerplate)
 [![npm](https://img.shields.io/npm/dt/react-native-redux-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-redux-boilerplate)
@@ -12,7 +12,7 @@
 
 <p align="center">
   <img alt="React Native Redux Boilerplate"
-        src="https://github.com/WrathChaos/react-native-redux-boilerplate/blob/master/assets/Screenshots/JSLibraryBoilerplate.png" />
+        src="https://github.com/combenu/react-native-redux-boilerplate/blob/master/assets/Screenshots/JSLibraryBoilerplate.png" />
 </p>
 
 ## Installation
@@ -20,7 +20,7 @@
 You can simply clone the project and start with your barebone project
 
 ```ruby
-git clone git@github.com:WrathChaos/react-native-redux-boilerplate.git
+git clone git@github.com:combenu/react-native-redux-boilerplate.git
 ```
 
 ## Step By Step Guide
@@ -32,30 +32,33 @@ npx react-native-rename <your-project-name>
 ```
 
 > With custom Bundle Identifier (Android only. For iOS, please use Xcode)
+
 ```
 npx react-native-rename <your-project-name> -b <bundleIdentifier>
 ```
 
 ### Install Pods (iOS Only)
 
-* npm i
-* cd ios && pod install
-* cd .. && react-native run-ios/android
+- npm i
+- cd ios && pod install
+- cd .. && react-native run-ios/android
 
 ### Android local.properties (Android Only)
 
-* npm i 
-* cd android && mkdir local.properties
-* nano local.properties
-  
+- npm i
+- cd android && mkdir local.properties
+- nano local.properties
+
 #### Example of MacOS Android SDK Path
+
 Make sure that set your right path of Android SDK
-``` 
+
+```
 ndk.dir=/Users/your-name/Library/Android/sdk/ndk-bundle
 sdk.dir=/Users/your-name/Library/Android/sdk
 ```
 
-* cd .. & react-native run-ios/android
+- cd .. & react-native run-ios/android
 
 <hr>
 

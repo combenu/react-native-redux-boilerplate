@@ -23,9 +23,9 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-redux-boilerplate/issues",
+  "bugs": "https://github.com/combenu/react-native-redux-boilerplate/issues",
   "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-redux-boilerplate.git",
+  "repository": "git@github.com:combenu/react-native-redux-boilerplate.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "dependencies": {
